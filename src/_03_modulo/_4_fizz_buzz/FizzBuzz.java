@@ -21,11 +21,23 @@ import java.awt.FontFormatException;
 * 
 **/
 
-public class FizzBuzz {{
+public class FizzBuzz {
+public static void main(String[] args) {
+	
 
 	for(int i=0;i<20;i++) {
-		System.out.println(i+1);
 		
+		
+	if((i+1)%15==0) {
+		System.out.println("fizzbuzz");}
+	else if((i+1)%3==0) {
+		System.out.println("fizz");
+		}else if((i+1)%5==0) {
+			System.out.println("buzz");
+		
+		}else {
+			System.out.println(i+1);
+		}
 		
 	}
 	
