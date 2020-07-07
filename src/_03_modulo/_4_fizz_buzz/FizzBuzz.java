@@ -1,6 +1,7 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import java.awt.FontFormatException;
 
 /**
 * Fizz Buzz
@@ -20,7 +21,13 @@ package _03_modulo._4_fizz_buzz;
 * 
 **/
 
-public class FizzBuzz {
+public class FizzBuzz {{
 
-}
+	for(int i=0;i<20;i++) {
+		System.out.println(i+1);
+		
+		
+	}
+	
+}}
 
